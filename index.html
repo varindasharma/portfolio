@@ -1,0 +1,163 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div id="header">
+        <div id="profession">
+          <p>Psy. Graduate</p>
+        </div>
+
+        <div id="my-name">
+          <a href="#image-container">Varinda Sharma</a>
+        </div>
+      </div>
+      <div id="nav-bar">
+        <a href="#image-container" class="nav-links" rel="noopener noreferrer"
+          >HOME</a
+        >
+        <a href="#about-section" class="nav-links" rel="noopener noreferrer"
+          >ABOUT</a
+        >
+        <a href="#contact-section" class="nav-links" rel="noopener noreferrer"
+          >CONTACT</a
+        >
+      </div>
+    </header>
+
+    <div id="content-container">
+      <div id="image-container">
+        <img src="./sexy.jpg" alt="my image" />
+      </div>
+
+      <div id="quote-container">
+        <p id="quote">
+          "THE SECRET OF <br />
+          GETTING AHEAD IS <br />
+          GETTING STARTED."
+        </p>
+
+        <hr />
+
+        <p style="font-size: 18px">MARK TWAIN</p>
+      </div>
+
+      <div id="about-section"></div>
+
+      <section class="about-section">
+        <div class="container">
+          <div class="sub-headings">
+            <h1>ABOUT ME</h1>
+            <hr />
+          </div>
+          <div class="content">
+            <div class="about-me">
+              <h2>About Me</h2>
+              <p>
+                I am a psychology graduate with a passion for understanding
+                human behaviour and mental health. I am dedicated to expanding
+                my expertise and aspire to make a meaningful impact in the field
+                of psychology.
+              </p>
+            </div>
+            <div class="education">
+              <h2>Education</h2>
+              <ul>
+                <li>
+                  Humber College, Lakeshore <br />
+                  Diploma in Addictions in Mental Health
+                </li>
+                <li>
+                  Chandigarh University, Punjab <br />
+                  Bachelors in Liberal Arts (Psychology Hons.)
+                </li>
+              </ul>
+            </div>
+            <div class="experience">
+              <h2>Experience</h2>
+              <p>
+                I gained practical experience in the field of psychology by
+                assisting licensed professionals in client assessments and
+                therapy sessions. I played a key role in conducting intake
+                interviews and gathering comprehensive client histories. This
+                hands-on experience deepened my passion for helping individuals
+                navigate their mental health challenges.
+              </p>
+            </div>
+            <div class="coursework">
+              <h2>CourseWork</h2>
+              <ul>
+                <li>Behavioural Addictions,</li>
+                <li>Substance and Harm reduction</li>
+                <li>Abnormal Psychology,</li>
+                <li>Organizational Psychology</li>
+                <li>Forensic Science</li>
+                <li>Counselling foundations</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact-section" class="contact-section">
+        <div class="container">
+          <div class="sub-headings">
+            <h1>CONTACT</h1>
+            <hr style="margin-left: 3px" />
+          </div>
+          <div class="content">
+            <div class="address">
+              <p>
+                Feel free to reach out to me at given email address or phone
+                number. I am available for any inquiries, collaborations, or
+                opportunities to connect.
+              </p>
+
+              <p>
+                Phone:
+                <strong>123-456-7890</strong><br />
+                City:
+                <strong>Toronto</strong><br />
+                E-mail:
+                <strong>sharmavarinda52@gmail.com</strong>
+              </p>
+            </div>
+            <div class="contact-form">
+              <form
+                action="mailto:varindasharma52@gmail.com"
+                method="post"
+                enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required /><br /><br />
+
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required /><br /><br />
+
+                <label for="message">Message:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  cols="50"
+                  required></textarea
+                ><br /><br />
+
+                <button id="submit-button" type="submit" value="Send">
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
