@@ -194,8 +194,8 @@ html {
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    background-color: white;
+  #my-name {
+    font-size: 2.2rem;
   }
 
   #nav-bar {
